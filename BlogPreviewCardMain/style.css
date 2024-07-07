@@ -1,0 +1,102 @@
+* {
+  padding: 5px;
+  margin: 0;
+}
+
+body {
+  background-color: #f4d04e;
+  font-family: Figtree;
+}
+
+.container {
+  border: 1.4px solid black;
+  border-radius: 25px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  padding: 12px;
+  box-shadow: 8px 8px black;
+  transition: box-shadow 0.3s;
+}
+
+.container:hover {
+  box-shadow: 12px 12px black;
+}
+
+.blogimage {
+  border: 1.4px solid #fff;
+  border-radius: 20px;
+}
+
+.border_text {
+  background-color: #f4d04e;
+  margin-right: 240px;
+  margin-left: 5px;
+  border: 1.4px solid #f4d04e;
+  border-radius: 5px;
+  height: 27px;
+}
+
+.lrn {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+}
+
+h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+h1:hover {
+  color: #f4d04e;
+}
+
+p {
+  color: #7f7f7f;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  width: 150px;
+}
+
+.authors_photo {
+  width: 32px;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 270px;
+  }
+
+  .blogimage {
+    width: 250px;
+    margin-left: -7px;
+  }
+
+  .border_text {
+    margin-right: 110px;
+  }
+}
